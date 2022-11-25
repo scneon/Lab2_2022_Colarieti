@@ -1,0 +1,43 @@
+|ParteB_SUM
+in_a => ParteB_FFD:D1.D
+in_b => ParteB_FFD:D2.D
+in_cin => ParteB_FFD:D3.D
+clk => ParteB_FFD:D1.CLOCK
+clk => ParteB_FFD:D2.CLOCK
+clk => ParteB_FFD:D3.CLOCK
+clk => ParteB_FFD:D4.CLOCK
+clk => ParteB_FFD:D5.CLOCK
+o_f <= ParteB_FFD:D5.Q
+o_cout <= ParteB_FFD:D4.Q
+
+
+|ParteB_SUM|ParteB_FFD:D1
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ParteB_SUM|ParteB_FFD:D2
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ParteB_SUM|ParteB_FFD:D3
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ParteB_SUM|ParteB_FFD:D4
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ParteB_SUM|ParteB_FFD:D5
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

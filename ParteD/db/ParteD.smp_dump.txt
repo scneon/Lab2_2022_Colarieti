@@ -1,0 +1,11 @@
+
+State Machine - |ParteD|fstate
+Name fstate.state_bit_2 fstate.state_bit_1 fstate.state_bit_0 
+fstate.I 0 0 0 
+fstate.A1 0 0 1 
+fstate.B1 0 1 0 
+fstate.A2 0 1 1 
+fstate.B2 1 0 0 
+fstate.A3 1 1 1 
+fstate.B3 1 1 0 
+fstate.B4 1 0 1 

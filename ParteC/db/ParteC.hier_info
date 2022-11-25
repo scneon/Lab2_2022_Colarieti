@@ -1,0 +1,153 @@
+|Block1
+CLOCK => parteb_ffd:b2v_DA0.CLOCK
+CLOCK => parteb_ffd:b2v_DA1.CLOCK
+CLOCK => parteb_ffd:b2v_DA2.CLOCK
+CLOCK => parteb_ffd:b2v_DA3.CLOCK
+CLOCK => parteb_ffd:b2v_DB0.CLOCK
+CLOCK => parteb_ffd:b2v_DB1.CLOCK
+CLOCK => parteb_ffd:b2v_DB2.CLOCK
+CLOCK => parteb_ffd:b2v_DB3.CLOCK
+CLOCK => parteb_ffd:b2v_DS0.CLOCK
+CLOCK => parteb_ffd:b2v_DS1.CLOCK
+CLOCK => parteb_ffd:b2v_DS2.CLOCK
+CLOCK => parteb_ffd:b2v_DS3.CLOCK
+SR => C.IN1
+SR => SYNTHESIZED_WIRE_11.IN1
+SR => SYNTHESIZED_WIRE_13.IN1
+SR => SYNTHESIZED_WIRE_16.IN1
+SR => SYNTHESIZED_WIRE_19.IN1
+SR => sumador_completo:b2v_FA0.cin
+A0 => parteb_ffd:b2v_DA0.D
+B0 => parteb_ffd:b2v_DB0.D
+A1 => parteb_ffd:b2v_DA1.D
+B1 => parteb_ffd:b2v_DB1.D
+A2 => parteb_ffd:b2v_DA2.D
+B2 => parteb_ffd:b2v_DB2.D
+A3 => parteb_ffd:b2v_DA3.D
+B3 => parteb_ffd:b2v_DB3.D
+S0 <= parteb_ffd:b2v_DS0.Q
+S1 <= parteb_ffd:b2v_DS1.Q
+S2 <= parteb_ffd:b2v_DS2.Q
+S3 <= parteb_ffd:b2v_DS3.Q
+S <= parteb_ffd:b2v_DS3.Q
+Z <= Z.DB_MAX_OUTPUT_PORT_TYPE
+V <= V.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DA0
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DA1
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DA2
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DA3
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DB0
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DB1
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DB2
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DB3
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DS0
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DS1
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DS2
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|ParteB_FFD:b2v_DS3
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|sumador_completo:b2v_FA0
+a => f.IN0
+a => cout.IN0
+b => f.IN1
+b => cout.IN1
+cin => f.IN1
+cin => cout.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|sumador_completo:b2v_FA1
+a => f.IN0
+a => cout.IN0
+b => f.IN1
+b => cout.IN1
+cin => f.IN1
+cin => cout.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|sumador_completo:b2v_FA2
+a => f.IN0
+a => cout.IN0
+b => f.IN1
+b => cout.IN1
+cin => f.IN1
+cin => cout.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|sumador_completo:b2v_FA3
+a => f.IN0
+a => cout.IN0
+b => f.IN1
+b => cout.IN1
+cin => f.IN1
+cin => cout.IN1
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

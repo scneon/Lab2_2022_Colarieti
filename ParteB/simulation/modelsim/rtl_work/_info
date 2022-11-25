@@ -1,0 +1,114 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Lab2_2022\ParteB\simulation\modelsim
+Eparteb_ffd
+Z1 w1669343356
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dD:\Lab2_2022\ParteB\simulation\modelsim
+Z7 8D:/Lab2_2022/ParteB/ParteB_FFD.vhd
+Z8 FD:/Lab2_2022/ParteB/ParteB_FFD.vhd
+l0
+L6
+V>RO732LNjn3RRCz?^7]`@1
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1669344530.388000
+Z11 !s90 -reportprogress|300|-93|-work|work|D:/Lab2_2022/ParteB/ParteB_FFD.vhd|
+Z12 !s107 D:/Lab2_2022/ParteB/ParteB_FFD.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 @GGX1NUYPV1]bKdIE[g`53
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 10 parteb_ffd 0 22 >RO732LNjn3RRCz?^7]`@1
+l12
+L11
+V5n8VF<LWdKULV6?i?d_Vd3
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 P<4fg4BiY>fmQ]0CP?HnS0
+!i10b 1
+Eparteb_sum
+Z15 w1669343647
+R4
+R5
+R6
+Z16 8D:/Lab2_2022/ParteB/ParteB_SUM.vhd
+Z17 FD:/Lab2_2022/ParteB/ParteB_SUM.vhd
+l0
+L4
+V`DjLU8E`KjRll5IImPzA?1
+R9
+31
+Z18 !s108 1669344530.673000
+Z19 !s90 -reportprogress|300|-93|-work|work|D:/Lab2_2022/ParteB/ParteB_SUM.vhd|
+Z20 !s107 D:/Lab2_2022/ParteB/ParteB_SUM.vhd|
+R13
+R14
+!s100 f2;BR`nk=h<X]nkckK9Qf0
+!i10b 1
+Abehavioral
+R4
+R5
+DEx4 work 10 parteb_sum 0 22 `DjLU8E`KjRll5IImPzA?1
+l24
+L14
+VEDKDEfISCH=d6AzF[X[372
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 PS_Njo@^;2g7E4lhTM5Ih1
+!i10b 1
+Etestbenchb
+Z21 w1669344062
+R4
+R5
+R6
+Z22 8D:/Lab2_2022/ParteB/testbenchB.vhd
+Z23 FD:/Lab2_2022/ParteB/testbenchB.vhd
+l0
+L4
+V3_AJiWI7FJkQTQ4P^e`N]0
+!s100 JYEmlnTS:QF2?bi<TYKPn0
+R9
+31
+!i10b 1
+Z24 !s108 1669344530.896000
+Z25 !s90 -reportprogress|300|-93|-work|work|D:/Lab2_2022/ParteB/testbenchB.vhd|
+Z26 !s107 D:/Lab2_2022/ParteB/testbenchB.vhd|
+R13
+R14
+Abehavior
+R4
+R5
+DEx4 work 10 testbenchb 0 22 3_AJiWI7FJkQTQ4P^e`N]0
+l28
+L7
+V8YnlNL1@3fi1063WS]PTo2
+!s100 D0Mz72[I9=XecdE53YX[L3
+R9
+31
+!i10b 1
+R24
+R25
+R26
+R13
+R14
